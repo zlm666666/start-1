@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h2{
+      padding-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+         color: #a1734f;
+    }
+header{
+    border-top: #a77a57 5px solid; 
+     background-color: #f8f8f8;
+    .navbar{
+        margin-bottom: 0px;
+    }
+    .m-t{
+        margin-top: 20px; 
+    }
+    #black{
+        border-bottom: 1px #a77a57 solid;
+    }
+    .navbar-default .navbar-nav>li>a{
+           color: #a1734f;
+    }
+}
+//二级菜单
+.erji .black{
+    color: black;
+}
+.erji{
+    margin-bottom: 30px;
+        border-top: #a77a57 5px solid;
+    }
+//    产品推荐
+.pages{
+         border-top: #a77a57 5px solid;
+    padding-bottom: 100px;
+    .col-tsf{
+        width: 100%;
+        overflow: hidden;
+    }
+    img{
+        width: 100%;
+        cursor: pointer;
+        transition: 2s;
+        &:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+    h3{
+        font-size: 18px;
+        color: #555555;
+        margin-top: 26px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 14px;
+        color: #96969c;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+    .pages-box{
+        a{
+            display:inline-block;
+            background-color: #6e6e6e;
+            color: #fff;
+            padding:8px 12px;
+            font-size: 14px;
+            &:hover{
+                background-color: #eeeeee;
+                color: #6f6f6f;
+                span{
+                    background: url(../images/pages2.png) no-repeat right center;
+                }
+            }
+            span{
+                display: block;
+                background: url(../images/pages3.png) no-repeat right center;
+            }
+        }
+    }
+    
+}
+
+//    新闻
+.xinwen{
+
+    padding-bottom: 20px;
+     border-top: #a77a57 5px solid;
+    img{
+        border-radius: 15px;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+    a{
+        color: black;
+        display: block;
+        line-height: 1.8em;
+    }
+    
+    .col-md-2{
+        img{
+            width: 100%;
+        }
+    }
+
+}
+//    合作伙伴
+.huoban{
+
+    padding-bottom: 20px;
+     border-top: #a77a57 5px solid;
+    h3{
+       padding-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+//    厂家
+.changjia{
+
+    padding-bottom:  50px;
+    border-top: #a77a57 5px solid;
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 14px;
+    }
+    h3{
+    text-align: center;
+        padding-top: 20px;
+    margin-bottom: 20px;
+}
+     a{
+        color: black;
+         line-height: 2.2em;
+        &:hover{
+         text-decoration: none;
+    }
+    }
+}
+//    荣誉
+.rongyu{
+
+     border-top: #a77a57 5px solid;
+    padding-bottom: 50px;
+       h3{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    img{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+//    十大品牌
+.more{
+
+    padding-bottom: 50px;
+   border-top: #a77a57 5px solid;
+    text-align: center;
+    padding-top: 30px;
+}
+
+//    历程
+.licheng{
+
+    border-top: #a77a57 5px solid;
+    padding-bottom: 50px;
+    h3{
+        text-align: center;
+    }
+    img{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+}
+//产品中心图片
+.zhongxin{
+
+    text-align: center;
+    .x-top{
+        float: right;
+         margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .zhongxin nav ul li{
+        width: 50px;
+    }
+    .main1{
+        .box{
+            width: 100%;
+            overflow: hidden;
+        }
+        img{
+            transition: 0.7s;
+        }
+        img:hover{
+            transform: scale(1.2,1.1);
+        }
+    }
+}
+//招商
+.zhaoshang{
+    border-top: #a77a57 5px solid;
+   text-align: center;
+    color: #000;
+    img{
+        width: 100%;
+    }
+    h2{
+        margin-top: 180px;
+        margin-bottom: 30px;
+    }
+    .list{
+        float: none;
+        list-style: none;
+    }
+
+}
+
+.x-zhongxin{
+        border-top: #a77a57 5px solid;
+        background-color: #f8f8f8;
+    strong{
+        font-size: 18px;
+        a{
+          color: black;  
+        } 
+    }
+    img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+     .bg-color{
+        color: black;
+    }
+        nav ul li{
+        color:#428bca;
+        margin-left: 10px;
+		list-style: none;
+		float: left;
+		line-height: 50px;
+		text-align: center;
+		cursor: pointer;
+	}
+	.main1{
+		display: none;
+	}
+	.show{
+		display: block;
+	}
+	.mainn{
+		clear: both;
+	}
+}
+
+footer{
+    text-align: center;
+    border-top: #a77a57 5px solid;
+    padding-top: 40px;
+            background-color: #f8f8f8;
+    ul{
+
+          height: 240px;
+    }
+    li{
+        list-style: none;    
+    }
+    a{
+         color: #a1734f;
+        line-height: 2em;             
+        &:hover{
+            text-decoration: none;
+              color: #000;
+        }
+    }
+    .size{
+        font-size: 17px;
+    }
+    .bg-h{
+        margin-top: 20px;
+        background-color: #7b593f ;
+    }
+}
+
+footer::after{
+    clear: both;
+    display: table;
+    content: "";
+}

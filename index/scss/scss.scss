@@ -1,0 +1,16 @@
+/*! 盛邦升华 */
+
+// common
+//@import "common/reset";//重置
+// @import "common/normalize";//一致
+//@import "common/initialization";//初始
+//@import "common/variables";//变量
+//@import "common/global";//全局
+
+// layouts 布局
+@import "layouts/slide";//轮播图
+@import "layouts/kefu";//客服
+@import "layouts/xiala";//下拉列表
+@import "layouts/xuanxiangka";//下拉列表
+// diy 自定义
+@import "style";//样式

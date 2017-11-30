@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #000;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1 id="say">
+    当你孤单你会想起谁.</h1>
+    
+
+    <!-- JavaScript -->
+    <script src="js/main.min.js"></script>
+        <script>
+    var arr = [
+        "为所欲为，无法无天.",
+        "我擦我在拔刀.",
+        "燕雀安知鸿鹄之志.",
+        "人生最大的敌人是自己.",
+        "所谓情商高，就是要有分寸感.",
+        "床前明月光，疑是地上霜.",
+        "为所欲为，无法无天.",
+        "寂寞别说爱.",
+        "一招斩断这四海.",
+        "小仙女你怎么了，你怎么又喝醉了."
+    ];
+     var say = document.querySelector("#say");
+    function my(){
+           var zz = Math.floor(Math.random()*arr.length);
+          say.innerHTML = arr[zz];
+    }
+    my();
+    setInterval(my,60000);
+ 
+  
+    </script>
+</body>
+
+</html>

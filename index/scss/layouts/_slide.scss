@@ -1,0 +1,33 @@
+/*轮播图*/
+
+.slide1{
+  height: 90vh;
+
+  .item{
+    height: 90vh;
+    .carousel-caption{
+      bottom:auto;
+
+    }
+  }
+  .item0{
+    background-image: url("../img/s0.gif");
+      background-size: cover;
+  }
+  .item1{
+    background-image: url("../img/s1.jpg");
+            background-size: cover;
+  }
+  .item2{
+    background-image: url("../img/s2.jpg");
+            background-size: cover;
+  }
+  .item3{
+    background-image: url("../img/s3.jpg");
+            background-size: cover;
+  }
+  .item4{
+    background-image: url("../img/s4.jpg");
+            background-size: cover;
+  }
+}

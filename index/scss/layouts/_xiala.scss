@@ -1,0 +1,20 @@
+
+	.list>li{
+		float: left;
+		list-style: none;
+	}	
+	ul#list>li{
+		float: left;
+		margin: 10px;
+	}
+	ul li{
+		list-style: none;
+		text-align: center;
+		line-height: 40px;
+	}
+	.oList{
+		display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: #e7e7e7;
+	}

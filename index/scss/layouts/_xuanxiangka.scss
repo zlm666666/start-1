@@ -1,0 +1,25 @@
+.zhongxin{
+    .bg-color{
+        background-color: black;
+        color: #fff;
+    }
+    nav ul li{
+		width: 50px;
+        margin-left: 10px;
+        border-radius: 25px;
+		list-style: none;
+		float: left;
+		line-height: 50px;
+		text-align: center;
+		cursor: pointer;
+	}
+	.main1{
+		display: none;
+	}
+	.show{
+		display: block;
+	}
+	.mainn{
+		clear: both;
+	}
+}
